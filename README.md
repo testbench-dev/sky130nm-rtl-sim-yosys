@@ -6,7 +6,7 @@ A five-day, open-source sprint https://www.vlsisystemdesign.com/ that takes Veri
 
 ## 📅 Workshop Road-map
 
-| Day | 🎯 Focus | 🔬 Signature exercise |
+| Day |  Focus |  Signature exercise |
 |-----|----------|-----------------------|
 | **1** | RTL → sim → synth → GLS | 2-to-1 multiplexer |
 | **2** | Timing libs · hierarchy vs flatten · D-FF resets | `multiple_modules`, `dff_*` |
@@ -27,21 +27,21 @@ A five-day, open-source sprint https://www.vlsisystemdesign.com/ that takes Veri
 
 ---
 
-## 🚀 Quick-Start (Day 1 flow)
+##  Quick-Start (Day 1 flow)
 
-📌 **Try it:** open a terminal at the repo root and run the commands below.  
+ **Try it:** open a terminal at the repo root and run the commands below.  
 They perform RTL simulation, synthesis, and a gate-level check for the Day-1 multiplexer.
 
 ```bash
 cd Day_1
 
-# 1️⃣ Functional simulation
+# 1️ Functional simulation
 iverilog -o sim.out rtl/good_mux.v rtl/tb_good_mux.v
 vvp sim.out            # generates wave.vcd
 
-# 2️⃣ Synthesis
+# 2️ Synthesis
 yosys -s gate/synth.tcl   # writes gate/good_mux_netlist.v
 
-# 3️⃣ Gate-level check
+# 3️ Gate-level check
 iverilog -o gls.out gate/good_mux_netlist.v rtl/tb_good_mux.v
 vvp gls.out
