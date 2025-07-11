@@ -1,6 +1,6 @@
 # Sky130 RTL · Simulation · Yosys Synthesis Lab
 
-A five-day, open-source sprint that takes Verilog RTL designs from functional simulation through gate-level netlists on the **SkyWater 130 nm** PDK.
+A five-day, open-source sprint https://www.vlsisystemdesign.com/ that takes Verilog RTL designs from functional simulation through gate-level netlists on the **SkyWater 130 nm** PDK.
 
 ---
 
