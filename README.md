@@ -4,7 +4,7 @@ A five-day, open-source sprint https://www.vlsisystemdesign.com/ that takes Veri
 
 ---
 
-## 📅 Workshop Road-map
+##  Workshop Road-map
 
 | Day |  Focus |  Signature exercise |
 |-----|----------|-----------------------|
@@ -16,7 +16,7 @@ A five-day, open-source sprint https://www.vlsisystemdesign.com/ that takes Veri
 
 ---
 
-## 🛠 Toolchain
+##  Toolchain
 
 | Tool | Role | Ubuntu install |
 |------|------|----------------|
